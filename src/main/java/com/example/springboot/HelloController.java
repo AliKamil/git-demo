@@ -29,7 +29,7 @@ public class HelloController {
 
     @GetMapping("/director")
     public String getDirectors() {
-        return funService.funString();
+        return funService.funString() + "directors";
     }
 
 }
