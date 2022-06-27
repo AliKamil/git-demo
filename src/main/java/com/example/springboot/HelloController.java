@@ -27,4 +27,10 @@ public class HelloController {
         return funService.funString();
     }
 
+    @GetMapping("/foobar")
+    public String fun() {
+        return funService.funString();
+    }
+
+
 }
